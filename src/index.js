@@ -5,7 +5,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {BrowserRouter as Router, Route, Switch, withRouter} from "react-router-dom";
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import {NotFoundRoute} from "./NotFoundRoute";
 import Login from "./Login";
 import Applications from "./Applications";

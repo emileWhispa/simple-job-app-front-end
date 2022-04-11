@@ -1,6 +1,5 @@
 import './App.css';
-import {Button, Container, Form, Nav, Navbar, Spinner} from "react-bootstrap";
-import CustomLink from "./CustomLink";
+import {Button, Container, Form, Spinner} from "react-bootstrap";
 import {Component} from "react";
 import SweetAlert from "react-bootstrap-sweetalert";
 import NavigationBar from "./NavigationBar";
@@ -24,7 +23,7 @@ class App extends Component {
         this.setState({
             loading: true
         });
-        let res = await fetch('http://127.0.0.1:8083/api/apply/submit', {
+        let res = await fetch('http://157.245.91.123:8080/api/apply/submit', {
             method: "POST",
             body: new FormData(target)
         });
