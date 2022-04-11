@@ -1,3 +1,30 @@
+Consider that an applicant wants to submit his / her profile and CV
+
+The HR is able to view the list of applicants
+
+That list should show only the first 10 items
+
+And that list should be sorted alphabetically
+
+The HR should be able to select an applicant and view his/her details
+
+Last, the HR must have option to change the application status (Dropped, Passed)
+
+You can find deployed version of this project
+http://157.245.91.123:3000/
+
+Login credentials as Staff
+Username : Admin
+Password: password
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
